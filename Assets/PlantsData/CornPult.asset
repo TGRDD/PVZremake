@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6bf8231606c9f6408f93c228f57a928, type: 3}
+  m_Name: CornPult
+  m_EditorClassIdentifier: 
+  PlantName: CornPult
+  PlantCost: 75
+  PlantIcon: {fileID: 21300000, guid: fa0d2771e4c85e74ca4b1d00004201b6, type: 3}
+  PlantTexture: {fileID: 2800000, guid: c6d46084cf398de49b371fae36fbd4b8, type: 3}
+  PlantPrefab: {fileID: 8836812608200470819, guid: 2b1f5155900012948a7a7e4dac6499ad, type: 3}
+  FixDelta: {x: 0, y: -0.9, z: 0}
+  CoolDownTime: 3

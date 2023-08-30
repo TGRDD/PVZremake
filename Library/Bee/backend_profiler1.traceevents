@@ -1,0 +1,525 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1693395797839063, "dur":9587, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395797848655, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1693395797848725, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1693395797848742, "dur":372, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1693395797849137, "dur":580, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395797849717, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255359, "dur":223, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255582, "dur":48, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255630, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255634, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255641, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255642, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255650, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255651, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255657, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255659, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255667, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255669, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255677, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255679, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255683, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255684, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255689, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255690, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255694, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255696, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255699, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255701, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255705, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255706, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255712, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255726, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798255744, "dur":2089, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1693395797849468, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395797849723, "dur":4626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395797854354, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1693395797854582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395797857660, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1693395797860908, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693395797861036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395797861498, "dur":25183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693395797886747, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395797886838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395797886845, "dur":95232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395797982125, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395797982186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395797982213, "dur":36157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798018429, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798018487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798018493, "dur":42780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798061338, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798061386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798061390, "dur":6406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798067969, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798068047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798068052, "dur":5751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798073860, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798073917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798073922, "dur":4712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798078700, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798078760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798078768, "dur":3727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798082551, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798082606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798082615, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798086455, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798086506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798086512, "dur":4551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798091117, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798091168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798091173, "dur":7896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798099123, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798099182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798099189, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798101921, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798101974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798101980, "dur":7235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693395798109265, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1693395798109315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798109320, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1693395798112493, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1693395798112562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798112569, "dur":38434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1693395798151072, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1693395798151135, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798151146, "dur":5801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1693395798157001, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1693395798157053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798157060, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1693395798158304, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1693395798158415, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798158418, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1693395798161491, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1693395798161605, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693395798161616, "dur":5682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1693395798167359, "dur":87997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395797849532, "dur":203, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395797849735, "dur":4625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395797854365, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1693395797855025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395797860914, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1693395797863770, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1693395797863872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395797865374, "dur":127374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1693395797992784, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395797992824, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395797992828, "dur":41566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798034458, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798034512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395798034518, "dur":30231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798064834, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798064924, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395798064931, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798068531, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798068572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395798068576, "dur":4329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798072962, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798073034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395798073040, "dur":4322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798077453, "dur":82400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798159856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395798159862, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693395798162159, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1693395798162222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693395798162228, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1693395798165961, "dur":89396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395797849500, "dur":228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395797849728, "dur":4616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395797854353, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1693395797854583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395797857507, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1693395797860577, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1693395797860805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395797861639, "dur":25151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1693395797886904, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395797886981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395797886987, "dur":41625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395797928668, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395797928723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395797928728, "dur":71434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798000261, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798000337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798000343, "dur":49218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798049641, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798049714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798049722, "dur":15635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798065425, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798065493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798065531, "dur":6301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798071900, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798071968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798071972, "dur":2953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798075002, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798075106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798075111, "dur":11088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798086256, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798086319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798086325, "dur":4717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798091158, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798091215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798091220, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798094649, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798094699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798094703, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798096821, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798096882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798096887, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798100002, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798100056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798100062, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693395798103031, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1693395798103083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798103171, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1693395798105959, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693395798106014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798106019, "dur":3931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693395798110002, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1693395798110066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798110070, "dur":11887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1693395798122027, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1693395798122085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798122095, "dur":15074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1693395798137227, "dur":21438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1693395798158669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693395798158675, "dur":7470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1693395798166212, "dur":89142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395797849520, "dur":211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395797849731, "dur":4616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395797854355, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1693395797854682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395797858555, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1693395797861349, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1693395797861512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395797861518, "dur":4006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1693395797870921, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395797870993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395797871407, "dur":32503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395797903958, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395797904002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395797904008, "dur":78945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395797983018, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395797983076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395797983081, "dur":50933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798034068, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798034124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395798034129, "dur":31443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798065630, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798065686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395798065691, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798069985, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798070023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395798070027, "dur":5747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798075824, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798075866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395798075869, "dur":3806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798079727, "dur":156884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798236615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693395798236623, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693395798237917, "dur":17458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395797849560, "dur":178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395797849738, "dur":4619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395797854358, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1693395797854595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395797858318, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1693395797861120, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1693395797861366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395797861371, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1693395797863171, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1693395797863260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395797863263, "dur":33140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1693395797896439, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395797896481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395797896485, "dur":86268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395797982818, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395797982886, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395797982891, "dur":50855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798033813, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798033953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395798033960, "dur":30571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798064584, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798064641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395798064646, "dur":4625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798069324, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798069385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395798069391, "dur":4085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798073527, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798073626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395798073634, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798077628, "dur":99873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798177506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693395798177513, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693395798179198, "dur":76164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395797849588, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395797849742, "dur":4603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395797854353, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1693395797854642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395797859072, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1693395797861386, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395797861533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395797861911, "dur":24902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395797886869, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395797886917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395797886922, "dur":95135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395797982104, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395797982173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395797982176, "dur":35815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798018063, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798018132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395798018139, "dur":43003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798061205, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798061275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395798061284, "dur":5377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798066739, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798066807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395798066810, "dur":5027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798071902, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798071982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395798071988, "dur":5542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798077599, "dur":105038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798182641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693395798182648, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693395798184052, "dur":71309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395797849616, "dur":134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395797849750, "dur":4603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395797854355, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1693395797854578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395797857678, "dur":2915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1693395797860695, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1693395797860877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395797861472, "dur":9959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1693395797871488, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395797871575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395797871664, "dur":56906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395797928633, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395797928707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395797928716, "dur":54543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395797983294, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395797983332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395797983337, "dur":50378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798033785, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798033885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798033929, "dur":30393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798064395, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798064467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798064474, "dur":3979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798068504, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798068544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798068548, "dur":4586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798073198, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798073257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798073262, "dur":3800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798077128, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798077207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798077212, "dur":9146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798086567, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798086627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798086633, "dur":9704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798096380, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798096427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798096431, "dur":4215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798100694, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798100742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798100747, "dur":7265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693395798108060, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":7, "ts":1693395798108114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798108119, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":7, "ts":1693395798110240, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1693395798110296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798110327, "dur":53005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1693395798163384, "dur":5806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1693395798169196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693395798169205, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1693395798170857, "dur":84514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693395797849637, "dur":117, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693395797849754, "dur":4608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693395797854362, "dur":631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1693395797854995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693395797859206, "dur":2761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1693395797862039, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693395797862213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693395797862272, "dur":139391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693395798001702, "dur":107911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693395798109616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693395798109622, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693395798113112, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693395798113163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693395798113168, "dur":45072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693395798158292, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1693395798158342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693395798158347, "dur":5806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1693395798164216, "dur":91155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395797849656, "dur":102, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395797849759, "dur":4592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395797854353, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1693395797854627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395797857693, "dur":2907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1693395797860670, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1693395797860838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395797861496, "dur":33984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1693395797895518, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395797895560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395797895565, "dur":87086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395797982719, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395797982778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395797982785, "dur":35898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798018724, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798018762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395798018767, "dur":42421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798061278, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798061347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395798061353, "dur":5885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798067274, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798067309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395798067313, "dur":4768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798072129, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798072174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395798072177, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798075635, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798075702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395798075707, "dur":9107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798084891, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798084957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395798084966, "dur":6437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798091464, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798091513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395798091518, "dur":8190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798099780, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798099838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395798099846, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798102679, "dur":83851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798186532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693395798186538, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693395798188545, "dur":66819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693395797849674, "dur":87, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693395797849761, "dur":4606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693395797854368, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1693395797855009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693395797859521, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1693395797862344, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693395797862442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693395797862445, "dur":202295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693395798064801, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693395798064860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693395798064864, "dur":4663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693395798069608, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693395798069673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693395798069678, "dur":3644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693395798073382, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693395798073446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693395798073451, "dur":5842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693395798079347, "dur":174686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693395798254037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693395798254044, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693395798255332, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1693395798255333, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395797849701, "dur":64, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395797849765, "dur":4603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395797854368, "dur":649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1693395797855020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395797860261, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1693395797863259, "dur":81573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege.exe" }}
+,{ "pid":12345, "tid":11, "ts":1693395797944837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395797944843, "dur":28968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege.exe" }}
+,{ "pid":12345, "tid":11, "ts":1693395797973854, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395797973901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395797973907, "dur":26640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798000593, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798000647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395798000653, "dur":49213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798049928, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798050037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395798050042, "dur":15546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798065645, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798065691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395798065696, "dur":4894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798070665, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798070713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395798070718, "dur":3783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798074562, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798074622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395798074627, "dur":4347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798079041, "dur":92769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798171815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693395798171823, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693395798173529, "dur":81830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395797849712, "dur":7, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395797849719, "dur":4624, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395797854354, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1693395797854358, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395797854559, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1693395797854564, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395797855862, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1693395797860193, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1693395797860384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395797861970, "dur":24826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1693395797886860, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395797886932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395797886937, "dur":95060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395797982051, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395797982095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395797982098, "dur":29141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798011305, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798011350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798011356, "dur":39147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798050575, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798050634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798050640, "dur":15422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798066164, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798066215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798066220, "dur":5006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798071286, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798071347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798071352, "dur":4436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798075834, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798075885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798075888, "dur":9168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798085123, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798085175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798085182, "dur":4777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798090009, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798090061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798090068, "dur":4374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798094507, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798094627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798094656, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798096312, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798096358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798096364, "dur":3829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798100242, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798100294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798100299, "dur":4295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693395798104881, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":12, "ts":1693395798104945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798104979, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":12, "ts":1693395798107446, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1693395798107499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798107504, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1693395798109730, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1693395798109790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798109794, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1693395798112732, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1693395798112780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798112785, "dur":18329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1693395798131191, "dur":12633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1693395798143831, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798143842, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1693395798145817, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1693395798145875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798145883, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1693395798149166, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1693395798149226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798149273, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1693395798151396, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1693395798151449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798151455, "dur":5648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1693395798157154, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1693395798157206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798157210, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1693395798159732, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1693395798159785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693395798159790, "dur":5373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Misha/Desktop/PVZ3D/PlantsSiege_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1693395798165251, "dur":90104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693395798259684, "dur":1852, "ph":"X", "name": "ProfilerWriteOutput" }
+,

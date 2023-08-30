@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6bf8231606c9f6408f93c228f57a928, type: 3}
+  m_Name: Peashooter
+  m_EditorClassIdentifier: 
+  PlantName: Peashooter
+  PlantCost: 100
+  PlantIcon: {fileID: 21300000, guid: 46c7b9009c16758409942b0665047b10, type: 3}
+  PlantTexture: {fileID: 2800000, guid: f7c704da68563a4429259e298ebe832f, type: 3}
+  PlantPrefab: {fileID: 7570743970949786851, guid: 93b317c27b8ccaa43b15eeee6e717499, type: 3}
+  FixDelta: {x: 0, y: -0.9, z: 0}
+  CoolDownTime: 4

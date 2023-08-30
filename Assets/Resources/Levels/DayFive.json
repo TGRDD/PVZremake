@@ -1,0 +1,14 @@
+{
+    "Name": "DayFive",
+    "StartSun": 75,
+    "TypesOnLevel": [
+        0,
+        1,
+        2,
+        4,
+        3
+    ],
+    "WavesCount": 4,
+    "ZombieIncreasingQuantity": 1,
+    "StartWithDefaultZombie": true
+}
